@@ -23,5 +23,5 @@ func main() {
 	if err != nil {
 		log.Fatalf("gen for client %s", err)
 	}
-	fmt.Println("generate hello actor success")
+	fmt.Println("generate actor success")
 }
