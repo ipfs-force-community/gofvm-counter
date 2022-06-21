@@ -25,12 +25,22 @@
         {
           "name": "increase",
           "method_num": 2,
-          "params":"0a"
+          "params":"1832"
         },
         {
           "name": "get",
           "method_num": 3,
-          "return_data":"0a"
+          "return_data":"1832"
+        },
+        {
+          "name": "increase again",
+          "method_num": 2,
+          "params":"1832"
+        },
+        {
+          "name": "get_result",
+          "method_num": 3,
+          "return_data":"1864"
         }
       ]
     }
