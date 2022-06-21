@@ -24,10 +24,13 @@
       "cases": [
         {
           "name": "increase",
-          "send_value": 0,
           "method_num": 2,
-          "params":"0a",
-          "return_data": ""
+          "params":"0a"
+        },
+        {
+          "name": "get",
+          "method_num": 3,
+          "return_data":"0a"
         }
       ]
     }

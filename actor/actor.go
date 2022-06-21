@@ -29,7 +29,7 @@ func Constructor() error {
 /// Method num 2.
 func (st *State) Increase(number *typegen.CborInt) error {
 	st.Value = st.Value+int64(*number)
-	_ = sdk.SaveState(&State{})
+	_ = sdk.SaveState(st)
 	return nil
 }
 
