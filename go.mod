@@ -7,7 +7,7 @@ require (
 	github.com/filecoin-project/go-state-types v0.1.9
 	github.com/filecoin-project/specs-actors/v8 v8.0.0-20220412224951-92abd0e6e7ae
 	github.com/filecoin-project/venus v1.2.4
-	github.com/ipfs-force-community/go-fvm-sdk v0.0.0-20220620070146-4e719f2e42e0
+	github.com/ipfs-force-community/go-fvm-sdk v0.0.0-20220623030258-7794fbcb5117
 	github.com/ipfs/go-cid v0.1.0
 	github.com/whyrusleeping/cbor-gen v0.0.0-20220514204315-f29c37e9c44c
 	golang.org/x/xerrors v0.0.0-20220411194840-2f41105eb62f
