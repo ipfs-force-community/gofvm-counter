@@ -19,7 +19,7 @@
   "contracts":[
     {
       "name": "counter",
-      "binary": "../gofvm-counter.wasm",
+      "binary": "gofvm-counter.wasm",
       "constructor": "",
       "cases": [
         {
