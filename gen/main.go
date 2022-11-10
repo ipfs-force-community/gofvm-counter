@@ -7,7 +7,6 @@ import (
 	"reflect"
 
 	"github.com/ipfs-force-community/go-fvm-sdk/gen"
-
 )
 
 func main() {
