@@ -19,22 +19,12 @@ replace (
 )
 
 require (
-	github.com/filecoin-project/go-state-types v0.1.12-alpha // indirect
-	github.com/filecoin-project/specs-actors v0.9.14 // indirect
+	github.com/filecoin-project/go-address v1.1.0
+	github.com/filecoin-project/go-state-types v0.1.12-alpha
+	github.com/filecoin-project/specs-actors/v8 v8.0.1
+	github.com/filecoin-project/venus v1.7.1
 	github.com/ipfs-force-community/go-fvm-sdk v0.0.0-20221109084702-d70ec9ef0b06
 	github.com/ipfs/go-cid v0.2.0
-	github.com/ipfs/go-log v1.0.5 // indirect
-	github.com/ipfs/go-log/v2 v2.5.0 // indirect
-	github.com/klauspost/cpuid/v2 v2.0.9 // indirect
-	github.com/multiformats/go-multihash v0.1.0 // indirect
-	github.com/polydawn/refmt v0.0.0-20201211092308-30ac6d18308e // indirect
-	github.com/smartystreets/goconvey v1.6.4 // indirect
 	github.com/whyrusleeping/cbor-gen v0.0.0-20220323183124-98fa8256a799
-	go.uber.org/atomic v1.9.0 // indirect
-	go.uber.org/multierr v1.7.0 // indirect
-	golang.org/x/crypto v0.0.0-20211209193657-4570a0811e8b // indirect
-	golang.org/x/sys v0.0.0-20211216021012-1d35b9e2eb4e // indirect
 	golang.org/x/xerrors v0.0.0-20220411194840-2f41105eb62f
-	gopkg.in/yaml.v2 v2.4.0 // indirect
-	lukechampine.com/blake3 v1.1.7 // indirect
 )
