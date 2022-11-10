@@ -6,7 +6,6 @@ replace (
 	erc20 => ./
 	github.com/davecgh/go-spew => github.com/ipfs-force-community/go-spew v1.1.2-0.20220524052205-0034150c051a
 	github.com/filecoin-project/go-address => github.com/ipfs-force-community/go-address v0.0.7-0.20220524010936-42617a156be1
-	github.com/filecoin-project/go-state-types => github.com/ipfs-force-community/go-state-types v0.1.8-0.20220523102255-d400d329d9c1
 	github.com/ipfs/go-block-format => github.com/ipfs-force-community/go-block-format v0.0.4-0.20220425095807-073e9266335c
 	github.com/ipfs/go-ipld-cbor => github.com/ipfs-force-community/go-ipld-cbor v0.0.7-0.20220713070731-f5190aacb1a4
 	github.com/klauspost/cpuid/v2 => github.com/ipfs-force-community/cpuid/v2 v2.0.13-0.20220523085810-ac111993ce74
@@ -20,12 +19,12 @@ replace (
 )
 
 require (
-	github.com/filecoin-project/go-address v0.0.6
-	github.com/filecoin-project/go-state-types v0.1.3
-	github.com/filecoin-project/specs-actors/v8 v8.0.0-20220412224951-92abd0e6e7ae
-	github.com/filecoin-project/venus v1.2.4
-	github.com/ipfs-force-community/go-fvm-sdk v0.0.0-20220810095922-6780bc0983e7
-	github.com/ipfs/go-cid v0.1.0
+	github.com/filecoin-project/go-address v1.1.0
+	github.com/filecoin-project/go-state-types v0.1.12-alpha
+	github.com/filecoin-project/specs-actors/v8 v8.0.1
+	github.com/filecoin-project/venus v1.7.1
+	github.com/ipfs-force-community/go-fvm-sdk v0.0.0-20221109084702-d70ec9ef0b06
+	github.com/ipfs/go-cid v0.2.0
 	github.com/whyrusleeping/cbor-gen v0.0.0-20220323183124-98fa8256a799
 	golang.org/x/xerrors v0.0.0-20220411194840-2f41105eb62f
 )

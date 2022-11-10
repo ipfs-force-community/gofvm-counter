@@ -12,5 +12,5 @@ a simple template project for quick start
 ```shell
 cd gen && go run main.go   #gen code
 cd .. && go-fvm-sdk-tools build -o ./tests/gofvm-counter.wasm  # build wasm
-go-fvm-sdk-tools test -- ./tests      # test wasm
+cd test && go-fvm-sdk-tools test       # test wasm
 ```
