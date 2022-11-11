@@ -1,16 +1,15 @@
 # template project
 
-a simple template project for quick start
+a simple template project for beginner
 
 # require
 
-1. install go version 1.16.x/1.17.x
-2. install tinygo  [fvm tinygo release](https://github.com/ipfs-force-community/tinygo/tags)
-3. install go-fvm-sdk [gofvm tool](https://github.com/ipfs-force-community/go-fvm-sdk)
+reference https://github.com/ipfs-force-community/go-fvm-sdk/blob/master/README.MD
+
 # how to run
 
 ```shell
-cd gen && go run main.go   #gen code
-cd .. && go-fvm-sdk-tools build -o ./tests/gofvm-counter.wasm  # build wasm
-cd test && go-fvm-sdk-tools test       # test wasm
+cd gen && go mod tidy && go run main.go          #gen code
+cd .. && go mod tidy && go-fvm-sdk-tools build   #build wasm
+go-fvm-sdk-tools test  #test wasm
 ```
